@@ -69,11 +69,13 @@ body {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-icon-footer {
   width: 20px;
   height: 20px;
   fill: white;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*---------------------------END COMPONENTS--------------------------------------------*/
 
@@ -106,6 +108,7 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
   outline: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-item {
   margin-right: 50pt;
@@ -137,6 +140,7 @@ body {
   color: var(--accent-second-color);
   display: flex;
   align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .info {
   margin-left: auto;
@@ -148,6 +152,7 @@ body {
   height: 18px;
   margin-right: 10px;
   fill: var(--accent-second-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail-link:hover .mail-img,
 .mail-link:focus .mail-img {
@@ -161,6 +166,7 @@ body {
 .tel-img {
   margin-right: 10px;
   fill: var(--accent-second-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tel-link:hover .tel-img,
 .tel-link:focus .tel-img {
@@ -178,6 +184,7 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
   outline: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-link-element::after {
   content: "";
@@ -199,6 +206,7 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
   outline: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-link-studio::after {
   content: "";
@@ -248,6 +256,7 @@ body {
   height: 50px;
   margin-top: 30px;
   outline: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -411,6 +420,7 @@ body {
   justify-content: center;
   align-items: center;
   outline: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-item:not(:last-child) {
   margin-right: 10px;
@@ -444,6 +454,7 @@ body {
   border-radius: 4px;
   align-items: center;
   justify-content: center;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-list {
   display: flex;
@@ -454,6 +465,7 @@ body {
 }
 .client-icon {
   fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-list-link:hover .client-icon,
 .client-list-link:focus .client-icon {
@@ -539,6 +551,7 @@ body {
   align-items: center;
   outline: none;
   background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-link-footer:hover,
 .social-list-link-footer:focus {
@@ -568,6 +581,7 @@ body {
   box-sizing: border-box;
   padding: 6px 22px;
   outline: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-nav:last-child {
   margin-right: 0px;
