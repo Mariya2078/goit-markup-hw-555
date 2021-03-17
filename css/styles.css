@@ -91,6 +91,7 @@ body {
   display: flex;
 }
 .navigation-list {
+  position: relative;
   display: flex;
   align-items: center;
   margin-left: 93px;
@@ -114,6 +115,10 @@ body {
 }
 .navigation-link:hover,
 .navigation-link:focus {
+  color: var(--accent-color);
+}
+.navigation-link-element:hover,
+.navigation-link-element:focus {
   color: var(--accent-color);
 }
 .mail-link {
@@ -161,6 +166,26 @@ body {
 .tel-link:focus {
   color: var(--accent-color);
   outline: none;
+}
+.navigation-link-element {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  outline: none;
+}
+.navigation-link-element::after {
+  content: "";
+  display: block;
+  width: 78px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--accent-color);
+}
+.navigation-link-element::after {
+  position: absolute;
+  transform: translateY(28px);
 }
 
 /*---------------------------END HEADER--------------------------------------------*/
