@@ -121,6 +121,10 @@ body {
 .navigation-link-element:focus {
   color: var(--accent-color);
 }
+.navigation-link-studio:hover,
+.navigation-link-studio:focus {
+  color: var(--accent-color);
+}
 .mail-link {
   margin-right: 50px;
 }
@@ -188,6 +192,26 @@ body {
   transform: translateY(28px);
 }
 
+.navigation-link-studio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  outline: none;
+}
+.navigation-link-studio::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--accent-color);
+}
+.navigation-link-studio::after {
+  position: absolute;
+  transform: translateY(28px);
+}
 /*---------------------------END HEADER--------------------------------------------*/
 
 /*-------------------------------------HERO----------------------------------------------*/
